@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+ 
+ .contact {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .contact .container {
+    padding: 10px;
+    max-width: 100%;
+  }
+  .contact .container .form .box .input input,
+  .contact .container .form .box .input textarea 
+{
+    margin-right: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8a8a8a;
+    padding: 10px 20px;
+}
+  .contact .container .form {
+    width: 100%;
+    background: #f6f6f6;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+    border-top: 3px solid #fed700;
+    border-radius: 5px;
+  }
+  
+  .contact .container .form h2 {
+    color: #cd1e7c;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .contact .container .form .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .contact .container .form .box .label h4 {
+    margin-left: 0;
+    color: #232323;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+ 
+  
+  .contact .container .form .box .input input,
+  .contact .container .form .box .input textarea {
+    outline: none;
+    background: none;
+  }
+  
+  .contact .container .form button {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 10px 30px;
+    color: #232323;
+    border: none;
+    outline: none;
+    background: none;
+    background: #fed700;
+    cursor: pointer;
+  } 
+  
+  @media (min-width: 768px) {
+    .contact .container .form {
+      width: 400px;
+    }
+  
+    .contact .container .form .box {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .contact .container .form .box .label h4 {
+      margin-left: 30px;
+    }
+  
+    .contact .container .form .box .input input,
+    .contact .container .form .box .input textarea {
+      margin-right: 16px;
+      width: auto;
+    }
+  
+    .contact .container .form button {
+      margin-left: 30px;
+    }
+  }
+
